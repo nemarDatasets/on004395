@@ -1,4 +1,6 @@
-﻿The Penn Electrophysiology of Encoding and Retrieval Study (PEERS) aimed to characterize the behavioral and electrophysiological (EEG) correlates of memory encoding and retrieval in highly practiced individuals. Across five PEERS experiments, 300+ subjects contributed more than 7,000 90 minute memory testing sessions with recorded EEG data.
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on004395-blue)](https://doi.org/10.82901/nemar.on004395)
+
+The Penn Electrophysiology of Encoding and Retrieval Study (PEERS) aimed to characterize the behavioral and electrophysiological (EEG) correlates of memory encoding and retrieval in highly practiced individuals. Across five PEERS experiments, 300+ subjects contributed more than 7,000 90 minute memory testing sessions with recorded EEG data.
 
 See the Computational Memory Lab's [wiki page](https://memory.psych.upenn.edu/PEERS) for more detailed information, and [this paper](https://psyarxiv.com/bu5x8/) for a discussion of the main findings and lessons learned from this large-scale study.
 
