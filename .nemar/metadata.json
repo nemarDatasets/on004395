@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on004395",
-  "source": "openneuro",
-  "source_id": "ds004395",
+  "pipeline_stage": "validated",
   "title": "Penn Electrophysiology of Encoding and Retrieval Study (PEERS)",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Michael J. Kahana": {},
     "Joseph H. Rudoler": {},
@@ -25,23 +25,72 @@
     "Isaac Pedisich": {},
     "Christoph T. Weidemann": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004395.v2.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004395",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004395",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "References"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.6.0",
-  "recording_modality": [
+  "resource_type_general": "Dataset",
+  "modalities": [
     "beh",
     "eeg"
   ],
-  "datatypes": [
-    "beh",
-    "eeg"
-  ]
+  "resource_type_specific": "Neuroimaging Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".bdf",
+    ".edf",
+    ".json",
+    ".md",
+    ".tsv",
+    ".ttf",
+    ".txt"
+  ],
+  "description": "The Penn Electrophysiology of Encoding and Retrieval Study (PEERS) is a large-scale investigation of the behavioral and electrophysiological correlates of memory encoding and retrieval. The dataset comprises EEG recordings from over 300 subjects across three experiments (ltpFR, ltpFR2, and VFFR), totaling more than 7,000 ninety-minute memory testing sessions. Data were acquired using either 129-channel Geodesic Sensor Net or 128-channel BioSemi systems, providing a comprehensive resource for studying neural mechanisms of human memory.",
+  "methods_description": "Electroencephalogram (EEG) data were recorded using either a 129-channel Geodesic Sensor Net (GSN 200 or HydroCel GSN model) with Netstation acquisition software (Electrical Geodesics, Inc.; EGI) or a 128-channel BioSemi headcap with the Biosemi ActiveTwo acquisition system. Electrode coordinates reflect generic layouts for each headcap type rather than subject-specific anatomical positions.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "memory encoding"
+    },
+    {
+      "term": "memory retrieval"
+    },
+    {
+      "term": "electrophysiology"
+    },
+    {
+      "term": "human cognition"
+    },
+    {
+      "term": "neuroimaging"
+    }
+  ],
+  "source_hash": "e75443d6bb9b6823305137605332e175ce1ee3254a4bdc23e9784218df9caefb"
 }
